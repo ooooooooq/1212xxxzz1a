@@ -5,8 +5,8 @@ import random
 import os
 
 
-
-deta = Deta(os.environ['DETAKEY'])
+# o8n5ib
+deta = Deta("c0xo25ol_eHeWqyY39XuqFFKizJYg6D7FRNTmD94D")
 users = deta.Base("OM")
 counter = 0
 errors = 0
@@ -63,7 +63,7 @@ def main_func() -> None:
                                 "name": names[i]['Name'],
                             })
                         counter += 1
-                        print(f"[+] {counter}")
+                        print(f"[+] {counter} - {num}")
                 except KeyboardInterrupt:
                     break
                 except Exception as e:
