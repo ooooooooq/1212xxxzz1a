@@ -6,7 +6,7 @@ import os
 
 
 
-deta = Deta(os.environ['DETA-KEY'])
+deta = Deta(os.environ['DETAKEY'])
 users = deta.Base("OM")
 counter = 0
 errors = 0
